@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2023-04-18T07:10:40.907Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.1.8" etag="kmqrKnOVQKatxbExV_7u" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-20T21:31:12.107Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="MMfm9oeXYZ8qGHTsT9-c" version="21.2.1" type="github">
   <diagram name="Page-1" id="wj9166zeu8E6wCw7k_po">
-    <mxGraphModel>
+    <mxGraphModel dx="880" dy="476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="bdfGBAIHHRgrsFEkhaWC-1" value="user" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="110" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="bdfGBAIHHRgrsFEkhaWC-3" value="Pseudo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bdfGBAIHHRgrsFEkhaWC-1">
+          <mxGeometry x="50" y="58" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bdfGBAIHHRgrsFEkhaWC-2" value="Id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="125" y="138" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bdfGBAIHHRgrsFEkhaWC-6" value="Password" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="188" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bdfGBAIHHRgrsFEkhaWC-7" value="Email" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="115" y="208" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bdfGBAIHHRgrsFEkhaWC-8" value="Recipes" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="360" width="170" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="bdfGBAIHHRgrsFEkhaWC-9" value="recipes_id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bdfGBAIHHRgrsFEkhaWC-8">
+          <mxGeometry x="40" y="30" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bdfGBAIHHRgrsFEkhaWC-12" value="title" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bdfGBAIHHRgrsFEkhaWC-8">
+          <mxGeometry x="55" y="58" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bdfGBAIHHRgrsFEkhaWC-19" value="thumdnail" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="bdfGBAIHHRgrsFEkhaWC-8">
+          <mxGeometry x="45" y="168" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bdfGBAIHHRgrsFEkhaWC-13" value="date" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="110" y="438" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bdfGBAIHHRgrsFEkhaWC-14" value="date" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="115" y="468" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bdfGBAIHHRgrsFEkhaWC-15" value="description" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="498" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bdfGBAIHHRgrsFEkhaWC-20" value="number_of_covers" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="90" y="558" width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
